@@ -8,6 +8,14 @@
     .reviews-box {
         box-shadow: none;
     }
+    .partners__inner {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .partners__inner a {
+        min-width: 25%;
+        text-align: center;
+    }
 }
 @media (max-width: 1160px) {
     .price__items {
@@ -63,12 +71,17 @@
     .menu__list li {
         margin-left: 0;
     }
+    .menu__list a:hover {
+        background-color: #2f3f54;
+        color: #fff;
+    }
     .menu__list a {
         display: block;
         padding: 10px 0;
         border-bottom: 1px solid #000;
         background-color: #fff;
     }
+
     .btn__menu {
         display: block;
     }
@@ -114,6 +127,23 @@
     }
     .footer__inner {
         justify-content: flex-start;
+    }
+}
+@media (max-width: 660px) {
+    .partners {
+        padding: 0px 0 20px;
+    }
+
+    .partners__inner {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .partners__inner a {
+        min-width: 100%;
+        text-align: center;
+    }
+    .partners__inner a + a {
+        margin: 0;
     }
 }
 @media (max-width: 580px) {
