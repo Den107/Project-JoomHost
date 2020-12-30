@@ -9,7 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@700&family=Roboto:wght@900&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/slick.css">
     <link rel="stylesheet" href="style/style.css">
@@ -22,7 +22,8 @@
             <div class="header__inner">
                 <div class="logo">
                     <a href="#">
-                        <img src="img/logo.png" alt="logo">
+                        <img src="img/logo.png" alt="logo"
+                            class="animate__animated animate__bounceInDown anim-delay--1	">
                     </a>
                 </div>
                 <nav class="menu">
@@ -32,13 +33,19 @@
                         <div></div>
                     </div>
                     <ul class="menu__list">
-                        <li><a href="#">ДОМОЙ</a></li>
-                        <li><a href="#">О НАС</a></li>
-                        <li><a href="#">WHMCS-МОСТ</a></li>
-                        <li><a href="#">ХОСТИНГ</a></li>
-                        <li><a href="#">СТРАНИЦЫ</a></li>
-                        <li><a href="#">БЛОГ</a></li>
-                        <li><a href="#">КОНТАКТЫ</a></li>
+                        <li><a href="#" class="animate__animated animate__bounceInDown anim-delay--2	">ДОМОЙ</a>
+                        </li>
+                        <li><a href="#" class="animate__animated animate__bounceInDown anim-delay--3	">О НАС</a>
+                        </li>
+                        <li><a href="#" class="animate__animated animate__bounceInDown anim-delay--4	">WHMCS-МОСТ</a>
+                        </li>
+                        <li><a href="#" class="animate__animated animate__bounceInDown anim-delay--5 	">ХОСТИНГ</a>
+                        </li>
+                        <li><a href="#" class="animate__animated animate__bounceInDown anim-delay--6	">СТРАНИЦЫ</a></li>
+                        <li><a href="#" class="animate__animated animate__bounceInDown anim-delay--7s">БЛОГ</a>
+                        </li>
+                        <li><a href="#" class="animate__animated animate__bounceInDown anim-delay--8	">КОНТАКТЫ</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -48,7 +55,7 @@
     <section class="top">
         <div class="container">
             <div class="top__inner">
-                <div class="top-info">
+                <div class="top-info animate__animated animate__bounceInLeft animate__slow">
                     <div class="top-info__subtitle">Просто подключить – Легко использовать – В 10 раз быстрее!</div>
                     <h1 class="top-info__title">Лучший Веб-Хостинг</h1>
                     <div class="top-info__descr">Цены начинаются от $150 в месяц*
@@ -65,7 +72,7 @@
                     <div class="top-info__btn-descr">*Специальное вступительное предложение и 30-дневная гарантия
                         возврата денег</div>
                 </div>
-                <div class="top-images">
+                <div class="top-images animate__animated animate__bounceInRight animate__slow">
                     <div class="top-images__box">
                         <img src="img/superman.png" alt="superman">
                         <div class="top-images__circle">
@@ -81,9 +88,10 @@
 
     <section class="price">
         <div class="container">
-            <h2 class="title">Платите за то, чем вы <span>действительно</span> пользуетесь. Никаких скрытых платежей!
+            <h2 class="title wow animate__animated animate__fadeInDown ">Платите за то, чем вы
+                <span>действительно</span> пользуетесь. Никаких скрытых платежей!
             </h2>
-            <div class="price__descr">
+            <div class="price__descr wow animate__animated animate__fadeInDown ">
                 SEO WP построен с использованием Live Composer - интерфейсного конструктора страниц для <a
                     href="#">WordPress</a>. Live Composer
                 это новое поколение <a href="#">визуальных редакторов</a> для вашего сайта. Используя простой интерфейс
@@ -91,7 +99,7 @@
                     требуются</span>
             </div>
             <div class="price__items">
-                <div class="price-item">
+                <div class="price-item wow animate__animated animate__fadeInLeft" data-wow-offset="700">
                     <div class="price-item__number">$190<span>/mo</span></div>
                     <div class="price-item__images">
                         <img src="img/price-item1.png" alt="item">
@@ -107,7 +115,7 @@
                     </ul>
                     <a href="#" class="price-item__btn">Присоединяйся Сейчас</a>
                 </div>
-                <div class="price-item">
+                <div class="price-item wow animate__animated animate__fadeInUp" data-wow-offset="700">
                     <div class="price-item__number">$499<span>/mo</span></div>
                     <div class="price-item__images">
                         <img src="img/price-item2.png" alt="item">
@@ -123,7 +131,7 @@
                     </ul>
                     <a href="#" class="price-item__btn">Присоединяйся Сейчас</a>
                 </div>
-                <div class="price-item">
+                <div class="price-item wow animate__animated animate__fadeInRight " data-wow-offset="700">
                     <div class="price-item__number">$999<span>/mo</span></div>
                     <div class="price-item__images">
                         <img src="img/price-item3.png" alt="item">
@@ -144,11 +152,11 @@
     </section>
     <section class="reviews">
         <div class="container">
-            <div class="title">
+            <div class="title wow animate__animated animate__fadeInDown">
                 Что <span>Люди</span> Говорят О Нас
             </div>
             <div class="reviews-slider">
-                <div class="reviews-slider__item">
+                <div class="reviews-slider__item wow animate__animated animate__fadeInLeft">
                     <div class="reviews-box">
                         <div class="reviews-box__images"><img src="img/captain-america.jpg" alt="captain"></div>
                         <div class="reviews-box__content">
@@ -159,7 +167,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="reviews-slider__item">
+                <div class="reviews-slider__item wow animate__animated animate__fadeInRight">
                     <div class="reviews-box">
                         <div class="reviews-box__images"><img src="img/tony-stark.jpg" alt="tony"></div>
                         <div class="reviews-box__content">
@@ -226,13 +234,13 @@
     </section>
     <section class="partners">
         <div class="container">
-            <div class="partners__inner">
-                <a href=""><img src="img/partner1.png" alt="partner"></a>
-                <a href=""><img src="img/partner2.png" alt="partner"></a>
-                <a href=""><img src="img/partner3.png" alt="partner"></a>
-                <a href=""><img src="img/partner4.png" alt="partner"></a>
-                <a href=""><img src="img/partner5.png" alt="partner"></a>
-                <a href=""><img src="img/partner6.png" alt="partner"></a>
+            <div class="partners__inner ">
+                <a class="wow animate__animated animate__rollIn" href=""><img src="img/partner1.png" alt="partner"></a>
+                <a class="wow animate__animated animate__rollIn" href=""><img src="img/partner2.png" alt="partner"></a>
+                <a class="wow animate__animated animate__rollIn" href=""><img src="img/partner3.png" alt="partner"></a>
+                <a class="wow animate__animated animate__rollIn" href=""><img src="img/partner4.png" alt="partner"></a>
+                <a class="wow animate__animated animate__rollIn" href=""><img src="img/partner5.png" alt="partner"></a>
+                <a class="wow animate__animated animate__rollIn" href=""><img src="img/partner6.png" alt="partner"></a>
             </div>
         </div>
     </section>
@@ -241,7 +249,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
-                <div class="footer-col__logo">
+                <div class="footer-col__logo wow animate__animated animate__fadeInLeft">
                     <a href="#" class="footer__logo">
                         <img src="img/logo-white.png" alt="logo">
                     </a>
@@ -251,7 +259,7 @@
                         сайт за несколько минут.
                     </div>
                 </div>
-                <div class="footer-menu">
+                <div class="footer-menu wow animate__animated animate__fadeInUp">
                     <div class="footer__title">База знаний</div>
                     <ul class="footer__list">
                         <li><a href="#">Руководства</a></li>
@@ -264,7 +272,7 @@
                         <li><a href="#">Образцы для Демонстрации</a></li>
                     </ul>
                 </div>
-                <div class="footer-menu">
+                <div class="footer-menu wow animate__animated animate__fadeInDown">
                     <div class="footer__title">Компания</div>
                     <ul class="footer__list">
                         <li><a href="#">Hosting.com Блог</a></li>
@@ -276,7 +284,7 @@
                         <li><a href="#">Политика Приватности</a></li>
                     </ul>
                 </div>
-                <div class="footer-form">
+                <div class="footer-form wow animate__animated animate__fadeInRight">
                     <div class="footer__title">Быстрая связь</div>
                     <form>
                         <input type="text" placeholder="Имя">
@@ -290,6 +298,7 @@
         </div>
     </footer>
 
+    <script src="script/wow.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script/slick.min.js"></script>
     <script src="script/main.js"></script>
